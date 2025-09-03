@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QLYNV\\Project\\Qly_NVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|d:\\qlynv\\project\\qly_nvien\\qly_nvien\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|solutionrelative:qly_nvien\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|D:\\QLYNV\\Project\\Qly_NVien\\qly_nvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|solutionrelative:qly_nvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|d:\\qlynv\\project\\qly_nvien\\qly_nvien\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|solutionrelative:qly_nvien\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|d:\\qlynv\\project\\qly_nvien\\qly_nvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|solutionrelative:qly_nvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|d:\\qlynv\\project\\qly_nvien\\qly_nvien\\formdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|solutionrelative:qly_nvien\\formdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|d:\\qlynv\\project\\qly_nvien\\qly_nvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2015EEA1-8402-4860-B80E-501460727CE8}|Qly_NVien\\Qly_NVien.csproj|solutionrelative:qly_nvien\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\Program.cs",
+              "RelativeDocumentMoniker": "Qly_NVien\\Program.cs",
+              "ToolTip": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\Program.cs",
+              "RelativeToolTip": "Qly_NVien\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:47:38.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDangKy.cs",
+              "DocumentMoniker": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangKy.cs",
+              "RelativeDocumentMoniker": "Qly_NVien\\FormDangKy.cs",
+              "ToolTip": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangKy.cs",
+              "RelativeToolTip": "Qly_NVien\\FormDangKy.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAzwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T05:27:38.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormDangKy.cs [Design]",
+              "DocumentMoniker": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangKy.cs",
+              "RelativeDocumentMoniker": "Qly_NVien\\FormDangKy.cs",
+              "ToolTip": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangKy.cs [Design]",
+              "RelativeToolTip": "Qly_NVien\\FormDangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T04:22:02.851Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDangNhap.Designer.cs",
+              "DocumentMoniker": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "Qly_NVien\\FormDangNhap.Designer.cs",
+              "ToolTip": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangNhap.Designer.cs",
+              "RelativeToolTip": "Qly_NVien\\FormDangNhap.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwE4BAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T05:20:46.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "Qly_NVien\\FormDangNhap.cs",
+              "ToolTip": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "Qly_NVien\\FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:06:02.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "Qly_NVien\\FormDangNhap.cs",
+              "ToolTip": "D:\\QLYNV\\Project\\Qly_NVien\\Qly_NVien\\FormDangNhap.cs",
+              "RelativeToolTip": "Qly_NVien\\FormDangNhap.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAlwEMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T04:16:57.121Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
