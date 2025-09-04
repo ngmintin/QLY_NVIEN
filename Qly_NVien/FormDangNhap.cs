@@ -54,6 +54,7 @@ namespace Qly_NVien
             this.Hide();
         }
 
+        //ẨN HIỆN MẬT KHẨU
         private void pictureBoxHien_Click(object sender, EventArgs e)
         {
             if (txbMatKhau.PasswordChar == '\0')
@@ -70,6 +71,14 @@ namespace Qly_NVien
                 pictureBoxHien.BringToFront();
                 txbMatKhau.PasswordChar = '\0';
             }
+        }
+
+        //LIÊN KẾT FORM QUÊN MẬT KHẨU
+        private void llQuenMatKhau_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormQuenMatKhau qmk = new FormQuenMatKhau();
+            qmk.Show();
+            this.Hide();
         }
     }
 }

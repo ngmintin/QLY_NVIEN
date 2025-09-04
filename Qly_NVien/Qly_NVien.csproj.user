@@ -7,5 +7,14 @@
     <Compile Update="FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormLayMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormQuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormThoat.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

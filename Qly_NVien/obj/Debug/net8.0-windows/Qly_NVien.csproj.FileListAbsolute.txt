@@ -16,3 +16,7 @@ D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.pdb
 D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.genruntimeconfig.cache
 D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\ref\Qly_NVien.dll
 D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.FormDangKy.resources
+D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.sourcelink.json
+D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.FormQuenMatKhau.resources
+D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.FormThoat.resources
+D:\QLYNV\Project\Qly_NVien\Qly_NVien\obj\Debug\net8.0-windows\Qly_NVien.FormLayMatKhau.resources

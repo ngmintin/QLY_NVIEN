@@ -197,6 +197,7 @@
             llQuenMatKhau.TabIndex = 3;
             llQuenMatKhau.TabStop = true;
             llQuenMatKhau.Text = "Quên mật khẩu?";
+            llQuenMatKhau.LinkClicked += llQuenMatKhau_LinkClicked;
             // 
             // buttonDangNhap
             // 
