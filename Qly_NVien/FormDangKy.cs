@@ -126,5 +126,12 @@ namespace Qly_NVien
             }
         }
 
+        //VỀ FORM ĐĂNG NHẬP
+        private void LLQuayLai_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormDangNhap dn = new FormDangNhap();
+            dn.Show();
+            this.Hide();
+        }
     }
 }

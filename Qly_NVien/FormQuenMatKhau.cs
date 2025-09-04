@@ -16,5 +16,32 @@ namespace Qly_NVien
         {
             InitializeComponent();
         }
+
+        //VỀ FORM ĐĂNG NHẬP
+        private void LLDangNhap_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormDangNhap dn = new FormDangNhap();
+            dn.Show();
+            this.Hide();
+        }
+
+        //CHỮ CHÌM
+        private void txbTenDangNhap_Enter(object sender, EventArgs e)
+        {
+            if (txbTenDangNhap.Text == "Nhập tên đăng nhập")
+            {
+                txbTenDangNhap.Text = "";
+                txbTenDangNhap.ForeColor = Color.Black;
+            }
+        }
+
+        private void txbTenDangNhap_Leave(object sender, EventArgs e)
+        {
+            if(txbTenDangNhap.Text == "")
+            {
+                txbTenDangNhap.Text = "Nhập tên đăng nhập";
+                txbTenDangNhap.ForeColor = Color.Gray;
+            }
+        }
     }
 }

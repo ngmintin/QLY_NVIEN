@@ -43,6 +43,7 @@
             textBoxXacNhan = new TextBox();
             textBoxEmail = new TextBox();
             button1 = new Button();
+            LLQuayLai = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -248,19 +249,32 @@
             // button1
             // 
             button1.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(276, 657);
+            button1.Location = new Point(282, 642);
             button1.Name = "button1";
             button1.Size = new Size(142, 68);
             button1.TabIndex = 2;
             button1.Text = "Hoàn tất";
             button1.UseVisualStyleBackColor = true;
             // 
+            // LLQuayLai
+            // 
+            LLQuayLai.AutoSize = true;
+            LLQuayLai.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            LLQuayLai.Location = new Point(563, 741);
+            LLQuayLai.Name = "LLQuayLai";
+            LLQuayLai.Size = new Size(125, 19);
+            LLQuayLai.TabIndex = 3;
+            LLQuayLai.TabStop = true;
+            LLQuayLai.Text = "Quay lại đăng nhập";
+            LLQuayLai.LinkClicked += LLQuayLai_LinkClicked;
+            // 
             // FormDangKy
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 255, 192);
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(700, 778);
+            Controls.Add(LLQuayLai);
             Controls.Add(button1);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(pictureBox1);
@@ -273,6 +287,7 @@
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -292,5 +307,6 @@
         private TextBox textBoxXacNhan;
         private TextBox textBoxEmail;
         private Button button1;
+        private LinkLabel LLQuayLai;
     }
 }

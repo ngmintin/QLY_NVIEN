@@ -34,9 +34,7 @@
             label3 = new Label();
             txbTenDangNhap = new TextBox();
             buttonXacNhan = new Button();
-            label5 = new Label();
             LLDangNhap = new LinkLabel();
-            LLDangKy = new LinkLabel();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,7 +52,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(107, 76);
+            label2.Location = new Point(107, 80);
             label2.Name = "label2";
             label2.Size = new Size(326, 19);
             label2.TabIndex = 1;
@@ -79,7 +77,7 @@
             // 
             label3.AutoSize = true;
             label3.Dock = DockStyle.Fill;
-            label3.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(3, 0);
             label3.Name = "label3";
             label3.Size = new Size(319, 50);
@@ -90,11 +88,15 @@
             // txbTenDangNhap
             // 
             txbTenDangNhap.Dock = DockStyle.Fill;
-            txbTenDangNhap.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbTenDangNhap.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbTenDangNhap.ForeColor = Color.Gray;
             txbTenDangNhap.Location = new Point(3, 53);
             txbTenDangNhap.Name = "txbTenDangNhap";
-            txbTenDangNhap.Size = new Size(319, 26);
+            txbTenDangNhap.Size = new Size(319, 29);
             txbTenDangNhap.TabIndex = 1;
+            txbTenDangNhap.Text = "Nhập tên đăng nhập";
+            txbTenDangNhap.Enter += txbTenDangNhap_Enter;
+            txbTenDangNhap.Leave += txbTenDangNhap_Leave;
             // 
             // buttonXacNhan
             // 
@@ -106,37 +108,17 @@
             buttonXacNhan.Text = "Xác nhận";
             buttonXacNhan.UseVisualStyleBackColor = true;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Times New Roman", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(444, 390);
-            label5.Name = "label5";
-            label5.Size = new Size(16, 23);
-            label5.TabIndex = 7;
-            label5.Text = "/";
-            // 
             // LLDangNhap
             // 
             LLDangNhap.AutoSize = true;
             LLDangNhap.Font = new Font("Times New Roman", 12F);
-            LLDangNhap.Location = new Point(374, 390);
+            LLDangNhap.Location = new Point(395, 404);
             LLDangNhap.Name = "LLDangNhap";
-            LLDangNhap.Size = new Size(74, 19);
+            LLDangNhap.Size = new Size(125, 19);
             LLDangNhap.TabIndex = 8;
             LLDangNhap.TabStop = true;
-            LLDangNhap.Text = "Đăng nhập";
-            // 
-            // LLDangKy
-            // 
-            LLDangKy.AutoSize = true;
-            LLDangKy.Font = new Font("Times New Roman", 12F);
-            LLDangKy.Location = new Point(454, 390);
-            LLDangKy.Name = "LLDangKy";
-            LLDangKy.Size = new Size(60, 19);
-            LLDangKy.TabIndex = 9;
-            LLDangKy.TabStop = true;
-            LLDangKy.Text = "Đăng ký";
+            LLDangNhap.Text = "Quay lại đăng nhập";
+            LLDangNhap.LinkClicked += LLDangNhap_LinkClicked;
             // 
             // FormQuenMatKhau
             // 
@@ -144,14 +126,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(532, 432);
-            Controls.Add(LLDangKy);
             Controls.Add(LLDangNhap);
-            Controls.Add(label5);
             Controls.Add(buttonXacNhan);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "FormQuenMatKhau";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormQuenMatKhau";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
@@ -167,8 +148,6 @@
         private Label label3;
         private TextBox txbTenDangNhap;
         private Button buttonXacNhan;
-        private Label label5;
         private LinkLabel LLDangNhap;
-        private LinkLabel LLDangKy;
     }
 }
