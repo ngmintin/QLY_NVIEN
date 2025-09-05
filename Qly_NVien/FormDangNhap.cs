@@ -80,5 +80,21 @@ namespace Qly_NVien
             qmk.Show();
             this.Hide();
         }
+
+        private void buttonDangNhap_Click(object sender, EventArgs e)
+        {
+            if(txbTaiKhoan.Text == "Tên đăng nhập" && txbMatKhau.Text == "Mật khẩu")
+            {
+                MessageBox.Show("Tài khoản và mật khẩu không được để trống!");
+            }
+            else if(txbTaiKhoan.Text == "Tên đăng nhập")
+            {
+                MessageBox.Show("Tài khoản không được để trống!");
+            }
+            else if (txbMatKhau.Text == "Mật khẩu")
+            {
+                MessageBox.Show("Mật khẩu không được để trống!");
+            }
+        }
     }
 }

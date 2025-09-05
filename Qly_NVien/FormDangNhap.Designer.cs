@@ -208,6 +208,7 @@
             buttonDangNhap.TabIndex = 4;
             buttonDangNhap.Text = "ĐĂNG NHẬP";
             buttonDangNhap.UseVisualStyleBackColor = true;
+            buttonDangNhap.Click += buttonDangNhap_Click;
             // 
             // label2
             // 
