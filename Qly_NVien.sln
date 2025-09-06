@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qly_NVien", "Qly_NVien\Qly_NVien.csproj", "{2015EEA1-8402-4860-B80E-501460727CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{0B72FF65-5B44-4C4E-A2E1-71BABBFA1610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{850A8F48-50DC-4F85-8A52-FDDEF15DBBCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2015EEA1-8402-4860-B80E-501460727CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2015EEA1-8402-4860-B80E-501460727CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2015EEA1-8402-4860-B80E-501460727CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B72FF65-5B44-4C4E-A2E1-71BABBFA1610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B72FF65-5B44-4C4E-A2E1-71BABBFA1610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B72FF65-5B44-4C4E-A2E1-71BABBFA1610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B72FF65-5B44-4C4E-A2E1-71BABBFA1610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850A8F48-50DC-4F85-8A52-FDDEF15DBBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850A8F48-50DC-4F85-8A52-FDDEF15DBBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850A8F48-50DC-4F85-8A52-FDDEF15DBBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850A8F48-50DC-4F85-8A52-FDDEF15DBBCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
